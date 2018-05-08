@@ -1,0 +1,38 @@
+{
+  "name": "galvanize-memory",
+  "version": "0.0.2",
+  "description": "You're making an API that can list, create, read, update, and delete a collection of coffee. The problem is that you're missing a critical part of the API-- the database! Create a database for this API, and interface with it via [Knex.js](https://knexjs.org).",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha",
+    "dev": "nodemon app.js"
+  },
+  "author": "Kyle Coberly",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "knex": "^0.14.6",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.4",
+    "pg": "^7.4.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0",
+    "supertest": "^3.0.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craneswalker/knex-2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/craneswalker/knex-2/issues"
+  },
+  "homepage": "https://github.com/craneswalker/knex-2#readme"
+}
